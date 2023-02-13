@@ -1,0 +1,6 @@
+*/1 * * * * /bin/date >> /tmp/date2.txt
+0 9,15,21 * * * cd /usr/bin && /usr/bin/python3 saveDataUrllib3.py 
+1 9,15,21 * * * cd /usr/bin && /bin/sh scriptAutomatisation.sh
+2 9,15,21 * * * cd /usr/bin && /bin/sh scriptCopyData.sh 
+0 8 1 * * cd /usr/bin && /bin/sh scriptDataRemove.sh
+
